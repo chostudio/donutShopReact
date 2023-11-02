@@ -9,10 +9,18 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
+        {/* Nav bar */}
+        {/* Landing Page */}
+        {/* "Donuts: Love at First Bite" */}{/* Spinning 3D pink donut model */}
+        {/* Featured Donuts "Shop Now" */}
+        {/* Landing Page 3D donut model */}
+        {/* Newsletter Notification Signup */}
+        {/* Footer Links */}
+
+        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
+        <a href="https://react.dev" target="_blank" rel="noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
         <h1 className="text-3xl font-bold underline">
