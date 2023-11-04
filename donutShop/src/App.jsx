@@ -2,13 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Landing from './components/landing.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
+      
         {/* Nav bar */}
         {/* Landing Page */}
         {/* "Donuts: Love at First Bite" */}{/* Spinning 3D pink donut model */}
@@ -16,7 +17,8 @@ function App() {
         {/* Landing Page 3D donut model */}
         {/* Newsletter Notification Signup */}
         {/* Footer Links */}
-
+      <Landing />
+      <div>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
